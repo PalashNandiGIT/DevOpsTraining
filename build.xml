@@ -27,9 +27,10 @@
 			maxPoll="${sf.maxPoll}" 
 			deployRoot="${cisandbox.deployroot}"			
 			rollbackOnError="true"
-			testlevel="RunLocalTests" 
+			testlevel="NoTestRun" 
 			logType="Detail" trace="false"/>
   </target>
+
 
 
  <!--##################################################### Set Proxy if Enabled #########################################-->
